@@ -88,3 +88,21 @@ footer{
 .appLogo{
     max-width: 350px;
 }
+
+.btn-color{
+    background-color: var(--jt-primary-color);
+    border: 3px dotted var(--jt-dark-color);
+}
+
+.btn-color:hover{
+    background-color: var(--jt-secondary-color);
+    border: 3px dotted var(--jt-light-color);
+}
+
+.fizz{
+    background-color: var(--jt-secondary-color);
+}
+
+.buzz{
+    background-color: var(--jt-primary-color);
+}
