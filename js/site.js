@@ -53,7 +53,7 @@ function displayFizzBuzz(numbers) {
   let templateRows = "";
 
   for (let i = 0; i < numbers.length; i++) {
-    let className ="";
+    let className = "";
     let number = numbers[i];
     
     //if when i divide this number, and the remainder is 0 then it is even

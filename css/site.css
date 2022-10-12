@@ -99,13 +99,13 @@ footer{
 }
 
 .Fizz{
-    color: var(--jt-secondary-color);
+    color: var(--jt-secondary-color) !important;
 }
 
 .Buzz{
-    color: var(--jt-primary-color);
+    color: var(--jt-primary-color) !important;
 }
 
 .FizzBuzz{
-    font-weight: bolder;
+    font-weight: bolder !important;
 }
