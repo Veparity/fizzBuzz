@@ -1,5 +1,5 @@
 :root{
-    --jt-primary-color: #ff7384;
+    --jt-primary-color: #65f428;
     --jt-secondary-color: #ff993b;
     --jt-dark-color: #1b1b1b;
     --jt-light-color: #dfe3e4;
@@ -30,7 +30,6 @@ footer{
 }
 
 .logoFly{
-    opacity:30%;
     border-radius: 10px;
 }
 
@@ -99,10 +98,14 @@ footer{
     border: 3px dotted var(--jt-light-color);
 }
 
-.fizz{
-    background-color: var(--jt-secondary-color);
+.Fizz{
+    color: var(--jt-secondary-color);
 }
 
-.buzz{
-    background-color: var(--jt-primary-color);
+.Buzz{
+    color: var(--jt-primary-color);
+}
+
+.FizzBuzz{
+    font-weight: bolder;
 }

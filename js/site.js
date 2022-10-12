@@ -49,17 +49,18 @@ function generateFizzBuzz(fizzValue, buzzValue, limitValue) {
 }
 
 function displayFizzBuzz(numbers) {
-  let className = "even";
+ 
   let templateRows = "";
 
   for (let i = 0; i < numbers.length; i++) {
+    let className ="";
     let number = numbers[i];
+    
     //if when i divide this number, and the remainder is 0 then it is even
-    if (number % 2 == 0) {
-      className = "even";
-    } else {
-      className = "odd";
+    if (!Number.isInteger(number)) {
+      className = number;
     }
+
     if (i % 10 == 0) {
       templateRows += "<tr>";
     }
