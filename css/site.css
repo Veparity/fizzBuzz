@@ -88,6 +88,14 @@ footer{
     max-width: 350px;
 }
 
+.btn-home{
+    background-color: var(--jt-primary-color);
+}
+
+.btn-home:hover{
+    background-color: var(--jt-secondary-color);
+}
+
 .btn-color{
     background-color: var(--jt-primary-color);
     border: 3px dotted var(--jt-dark-color);
